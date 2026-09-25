@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-insee",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "INSEE MCP — France's SIRENE business registry (INSEE).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-insee": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "insee"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-insee"
+    "url": "git+https://github.com/pipeworx-io/mcp-insee.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-bb5d8b92a3e4ac09c12ae1a48f330f88bf8573e508ecf12da5e3213882a21640",
+    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
   }
 }
