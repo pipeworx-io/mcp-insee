@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-insee",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "INSEE MCP — France's SIRENE business registry (INSEE).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-8d7bb0e82afa411487309467820282fa256406365476d5d5345ca824599b0ca7",
-    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
+    "sourceHash": "v1-34f229371a3ba2d49bbf21f18942085ddf9e98c8e2cb674926b9b51b190a0d9a",
+    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
   }
 }
